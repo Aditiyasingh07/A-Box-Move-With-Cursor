@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkgrey;
+}
+#box-container{
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    border: 1px solid rebeccapurple;
+    transform: translate(-50%, -50%);
+}
